@@ -1,0 +1,100 @@
+.intract-gif {
+  text-align: center;
+  margin-top: 200px !important;
+  img {
+    width: 235px;
+  }
+}
+.intaract-target {
+  p {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    text-align: center;
+    margin-top: 22px !important;
+    color: rgba(255, 255, 255, 0.4);
+    span {
+      color: rgba(255, 255, 255, 0.8);
+    }
+  }
+}
+.btn-get-start {
+  position: relative;
+  display: inline-flex;
+  border: none;
+  background-color: #6435e9;
+  padding: 10px 57px !important;
+  border-radius: 8px !important;
+  cursor: pointer;
+  overflow: hidden;
+  transition: all 0.3s ease;
+}
+.aside-btn {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 0;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.3);
+  z-index: 0;
+}
+.btn-arrow-move {
+  border: none;
+  position: relative;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: all 0.3s ease;
+  z-index: 1;
+  background-color: transparent;
+}
+.btn-arrow-move span {
+  color: white;
+}
+.btn-arrow-move:hover {
+  transform: translate(3px);
+}
+.align-midlineImage {
+  position: relative;
+  bottom: 40px;
+  left: 380px;
+}
+
+.align-card-tag {
+  position: relative;
+  left: 350px;
+  bottom: 50px;
+}
+
+.align-end-direction {
+  position: relative;
+  top: 146px;
+  right: 143px;
+}
+.align-primary-card {
+  margin-top: 160px !important;
+}
+.align-secondary-card {
+  position: relative;
+  right: 280px;
+}
+.align-roadEarner-tag {
+  position: relative;
+  top: 280px;
+  right: 60px;
+}
+.align-roadEarner-image {
+  position: relative;
+  right: 200px;
+  top: 25px;
+}
+.align-firstDrop-image {
+  position: relative;
+  bottom: 34px;
+}
+
+.align-timer-container {
+  position: relative;
+  bottom: 200px;
+  margin-left: 200px !important;
+}

@@ -1,0 +1,157 @@
+.claim-card-wrapper {
+  width: 320px;
+  border-radius: 12px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  margin-top: 16px !important;
+  background: var(--White-05, rgba(255, 255, 255, 0.05));
+  padding: 12px !important;
+  position: relative;
+}
+
+.claim-card-img {
+  width: 296px;
+  height: 296px;
+  border-radius: 6px;
+  border: 1px solid var(--White-10, rgba(255, 255, 255, 0.1));
+  background: rgba(0, 0, 0, 0.2);
+  margin-bottom: 12px !important;
+}
+
+.claim-draw-text {
+  color: var(--White-60, rgba(255, 255, 255, 0.8));
+  text-shadow: 0px 0px 2px rgba(0, 0, 0, 0.4);
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  position: absolute;
+  top: 24px;
+  right: 24px;
+  padding: 2px 4px !important;
+  border-radius: 4px;
+  background-color: #0009;
+}
+
+.claim-sub-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-bottom: 12px !important;
+}
+
+.align-discord-icon {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+}
+
+.claim-hr-tag {
+  border: 0;
+  height: 1px;
+  position: relative;
+  width: 100%;
+}
+
+.claim-sub-wrapper2 {
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 16px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 12px !important;
+}
+
+.claim-tick-icon {
+  display: flex;
+  width: 16px;
+  height: 16px;
+  padding: 4px !important;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 1000px;
+  border: 1px solid var(--White-10, rgba(255, 255, 255, 0.1));
+  background: var(--White-05, rgba(255, 255, 255, 0.05));
+  -webkit-backdrop-filter: blur(10px);
+  backdrop-filter: blur(10px);
+  align-self: flex-end;
+  font-size: 12px;
+}
+
+.claim-now-btn {
+  display: flex;
+  padding: 10px 0 !important;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 8px;
+  border: 1px solid var(--White-07, rgba(255, 255, 255, 0.07));
+  background: var(--White-07, rgba(255, 255, 255, 0.07));
+  color: var(--White-60, rgba(255, 255, 255, 0.6));
+  text-align: center;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  margin-top: 12px !important;
+}
+
+.earn-text {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  color: var(--White-100, #fff) !important;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.reward-path-wrapper {
+  width: 312px;
+  border-radius: 6px;
+  border: 0.5px solid var(--White-20, rgba(255, 255, 255, 0.2));
+  background: #131313;
+  box-shadow: 0 2px 5px #00000080;
+  position: absolute;
+  top: 0;
+  right: -120%;
+  transform: translateY(-45%);
+}
+
+.reward-sub-wrapper {
+  color: var(--White-40, rgba(255, 255, 255, 0.4));
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 16px;
+  padding: 12px 16px !important;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.reward-sub-wrapper2 {
+  color: var(--White-60, rgba(255, 255, 255, 0.6));
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+  padding: 16px !important;
+}
+
+.reward-path {
+  position: absolute;
+  top: 43%;
+  right: -75%;
+  z-index: -1;
+  transform: translateY(-50%);
+  opacity: 50%;
+}
+
+.reward-text-info {
+  color: #7d7d7d;
+  margin-bottom: 10px !important;
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 1.3;
+}

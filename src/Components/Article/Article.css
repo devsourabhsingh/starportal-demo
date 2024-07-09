@@ -1,0 +1,85 @@
+.article-section {
+  max-width: 100% !important;
+}
+
+.crypto-Main {
+  width: 100%;
+  background-color: #151515;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  border-radius: 24px;
+}
+.crypto-img-outer {
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  height: 180px;
+  padding: 8px !important;
+  border-radius: 16px;
+  background: rgba(255, 255, 255, 0.05);
+  position: relative;
+}
+.crypto-img {
+  object-fit: cover;
+  width: 100%;
+  height: 100%;
+  border-radius: 12px;
+}
+.card-text-color {
+  color: #565556;
+}
+
+.custom-hr {
+  border-top: 2px dashed grey;
+  width: 90%;
+  margin: 0 auto;
+}
+
+.quest-btn {
+  width: max-content;
+  padding: 8px 24px !important;
+  background: rgba(0, 0, 0, 0.4);
+  box-shadow: 0 0 5px #0000001a;
+  backdrop-filter: blur(5.5px);
+  color: #fff;
+  -webkit-backdrop-filter: blur(5.5px);
+  border-radius: 50px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  position: absolute;
+  bottom: 16px;
+  left: 50%;
+  transform: translate(-50%);
+}
+.Experience-btn {
+  background-color: #252525;
+  color: #fff;
+  border: 0.5px solid rgba(255, 255, 255, 0.05);
+  padding: 8px 12px !important;
+  height: 32px;
+  width: max-content;
+  border-radius: 50px;
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  img {
+    width: 18px;
+    height: 16px;
+  }
+}
+
+.dropDown-icon {
+  position: relative;
+  top: -16px;
+  left: 278px;
+  cursor: pointer;
+  width: fit-content;
+  transition: transform 0.2s ease;
+  .bi-caret-down-fill {
+    font-size: 20px;
+    color: #454445;
+  }
+}
+.move-down {
+  transform: rotate(180deg);
+}
+.card-expand {
+  border-bottom-left-radius: 0px !important;
+  border-bottom-right-radius: 0px !important;
+}

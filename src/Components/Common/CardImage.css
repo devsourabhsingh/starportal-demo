@@ -1,0 +1,31 @@
+.common-picture-card {
+  width: 160px !important;
+  height: 180px !important;
+  border-radius: 24px;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.common-image {
+  width: 147px;
+  height: 165px;
+  border-radius: 20px;
+  object-fit: cover;
+  z-index: 1;
+}
+.lock-image {
+  display: flex;
+  width: 48px;
+  height: 48px;
+  padding: 12px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50px;
+  border: 1px solid var(--White-20, rgba(255, 255, 255, 0.2));
+  background-color: #131313;
+  position: relative;
+  top: -30px;
+  left: 131px;
+  z-index: 1;
+}

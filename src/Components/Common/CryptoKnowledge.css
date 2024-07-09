@@ -1,0 +1,31 @@
+.crypto-chapter-img {
+  img {
+    height: 100px !important;
+    width: 120px !important;
+    border-radius: 12px;
+  }
+}
+.crypto-Main-chapter {
+  width: 100%;
+  background-color: #151515;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 12px;
+}
+.subItem {
+  gap: 10px;
+  display: flex;
+  align-items: center;
+  p {
+    color: rgba(255, 255, 255, 0.6);
+  }
+}
+.progress-chapter-bar {
+  width: 100%;
+  background-color: #2f2f2f !important;
+  border: 1px solid black;
+  border-radius: 30px;
+  box-shadow: 0 0 10px black !important;
+}
+.bi-check-circle {
+  font-size: 1.5rem;
+}
