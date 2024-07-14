@@ -18,7 +18,7 @@ function App() {
           </div>
           <img src={backgroundImage} className="background-image" alt="" />
           <Routes>
-            <Route path="/academy" element={<Academy />} />
+            <Route path="/" element={<Academy />} />
           </Routes>
         </div>
       </Router>
