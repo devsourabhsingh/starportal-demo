@@ -1,3 +1,7 @@
+.container {
+  overflow-x: hidden;
+}
+
 .intract-gif {
   text-align: center;
   margin-top: 200px !important;
@@ -54,29 +58,65 @@
 .btn-arrow-move:hover {
   transform: translate(3px);
 }
-.align-midlineImage {
-  position: relative;
-  bottom: 40px;
-  left: 380px;
+.line-flow-infinit {
+  position: absolute;
+  top: 45%;
+  left: -120px;
+  z-index: 0;
+}
+.mid-section {
+  max-width: 100vw;
+  display: flex;
+  flex-direction: column;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
 }
 
-.align-card-tag {
+.start-break-align-line {
+  position: absolute;
+  top: 45%;
+  left: -120px;
+  z-index: 0;
+}
+
+.align-midlineImage {
+  position: absolute;
+  top: 83%;
+  left: 185px;
+  z-index: -1;
+}
+
+.section-first {
   position: relative;
-  left: 350px;
-  bottom: 50px;
+  z-index: 10;
+}
+.section-second {
+  display: flex;
+  width: 100%;
+  justify-content: flex-end;
+  position: relative;
+  margin-top: -45px !important;
+}
+
+.section-third {
+  display: flex;
+  justify-content: flex-end;
+  margin-top: 73px !important;
 }
 
 .align-end-direction {
-  position: relative;
-  top: 146px;
-  right: 143px;
+  position: absolute;
+  top: 46%;
+  left: 57%;
+  z-index: -1;
 }
 .align-primary-card {
   margin-top: 160px !important;
 }
 .align-secondary-card {
   position: relative;
-  right: 280px;
+  margin-right: 240px !important;
+  z-index: 10;
 }
 .align-roadEarner-tag {
   position: relative;
@@ -84,17 +124,57 @@
   right: 60px;
 }
 .align-roadEarner-image {
-  position: relative;
+  position: absolute;
+  top: 10%;
+  left: -54%;
   right: 200px;
-  top: 25px;
+  z-index: -1;
 }
-.align-firstDrop-image {
+.section-last {
+  display: flex;
+  justify-content: flex-start;
   position: relative;
-  bottom: 34px;
+}
+.intract-certifeid-card-img {
+  margin-top: 60px !important;
+}
+.airdrop-coin {
+  position: absolute;
+  top: 46%;
+  left: -23%;
+  z-index: -1;
 }
 
 .align-timer-container {
+  display: flex;
+  gap: 24px;
+  justify-content: center;
   position: relative;
-  bottom: 200px;
-  margin-left: 200px !important;
+}
+.reward-gift-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  width: 320px !important;
+  position: absolute;
+  left: calc(-100% - 24px);
+  bottom: 0;
+}
+.wrapper-card {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+}
+.drop-align-item {
+  position: relative;
+  left: 0px;
+  top: 0px;
+  z-index: -1;
+}
+.section {
+  margin: 0 auto !important;
+  padding: 0 1rem !important;
+  width: 100%;
+  max-width: 1200px !important;
+  position: relative;
 }

@@ -11,7 +11,7 @@ const Header = () => {
           className="container-fluid ms-auto me-auto"
           style={{ maxWidth: "1284px" }}
         >
-          <NavLink className="navbar-brand" href="#">
+          <NavLink className="navbar-brand" to="#">
             <img src={intractImage} alt="" />
           </NavLink>
           <button
@@ -28,48 +28,31 @@ const Header = () => {
           <div className="collapse navbar-collapse" id="navbarSupportedContent">
             <ul className="navbar-nav me-auto mb-2 mb-lg-0 unorder-list-item">
               <li className="nav-item">
-                <NavLink
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
+                <NavLink className="nav-link active" aria-current="page" to="#">
                   Compass
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
+                <NavLink className="nav-link active" aria-current="page" to="#">
                   Explore
                 </NavLink>
               </li>
               <li className="nav-item">
                 <NavLink
-                  to="/"
+                  to="/academy"
                   className="nav-link active"
                   aria-current="page"
-                  href="#"
                 >
                   Academy
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
+                <NavLink className="nav-link active" aria-current="page" to="#">
                   NFTs
                 </NavLink>
               </li>
               <li className="nav-item">
-                <NavLink
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                >
+                <NavLink className="nav-link active" aria-current="page" to="#">
                   For Projects
                 </NavLink>
               </li>

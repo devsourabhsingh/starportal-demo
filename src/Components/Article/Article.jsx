@@ -3,12 +3,22 @@ import "./Article.css";
 import DropDownContent from "./DropDownContent";
 
 const Article = (props) => {
-  const { image, title, description, quest, coinImage, SubData } = props;
+  const {
+    image,
+    title,
+    description,
+    quest,
+    coinImage,
+    SubData,
+    onStateChange,
+  } = props;
 
   const [gain, setGain] = useState(false);
 
   const handleDropDown = () => {
-    setGain(!gain);
+    const newState = !gain;
+    setGain(newState);
+    onStateChange(newState);
   };
 
   return (
@@ -16,10 +26,7 @@ const Article = (props) => {
       <div className="article-section">
         <section style={{ maxWidth: "1250px" }}>
           <div>
-            <div
-              className={`card crypto-Main ${gain ? "card-expand" : null}`}
-              style={{ width: "520px" }}
-            >
+            <div className={`card crypto-Main ${gain ? "card-expand" : null}`}>
               <div
                 className="row d-flex flex-nowrap align-items-center p-xxl-4"
                 style={{ gap: "24px" }}
@@ -50,10 +57,12 @@ const Article = (props) => {
               </div>
             </div>
             {gain ? (
-              <DropDownContent
-                primaryData={SubData?.primary}
-                secondaryData={SubData?.secondary}
-              />
+              <div className="drop-down-relative-item">
+                <DropDownContent
+                  primaryData={SubData?.primary}
+                  secondaryData={SubData?.secondary}
+                />
+              </div>
             ) : null}
           </div>
 

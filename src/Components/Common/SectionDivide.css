@@ -1,0 +1,19 @@
+.section-line {
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.section-show:after {
+  content: "";
+  height: 28px;
+  width: 100%;
+  position: absolute;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0.02) 0%,
+    rgba(255, 255, 255, 0.04) 13.72%,
+    rgba(255, 255, 255, 0.1) 50.73%,
+    rgba(255, 255, 255, 0.04) 82.86%,
+    rgba(255, 255, 255, 0.02) 100%
+  );
+  filter: blur(40px);
+}

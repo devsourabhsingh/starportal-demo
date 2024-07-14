@@ -7,7 +7,6 @@ import backgroundImage from "../src/Image/background-image1.png";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Header from "./Components/Layout/Header/Header";
 import Academy from "./Components/Academy/Academy";
-import DropDownContent from "./Components/Article/DropDownContent";
 
 function App() {
   return (
@@ -19,7 +18,7 @@ function App() {
           </div>
           <img src={backgroundImage} className="background-image" alt="" />
           <Routes>
-            <Route path="/" element={<Academy />} />
+            <Route path="/academy" element={<Academy />} />
           </Routes>
         </div>
       </Router>

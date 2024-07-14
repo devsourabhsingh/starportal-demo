@@ -8,7 +8,7 @@ import RewardPathInfo from "../../Image/RewardPath.svg";
 const ClaimCard = () => {
   return (
     <>
-      <div className="claim-card-wrapper">
+      <div className="claim-card-wrapper container mx-auto">
         <img src={ClaimNow} alt="claim now gif" className="claim-card-img" />
         <div className="claim-draw-text">Lucky Draw</div>
         <div className="claim-sub-wrapper">

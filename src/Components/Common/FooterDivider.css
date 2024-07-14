@@ -1,0 +1,9 @@
+.footer-divider {
+  width: 100%;
+  height: auto;
+  border-top: 1px solid #2b2b2b;
+  margin-top: 40px !important;
+  padding-top: 40px !important;
+  display: flex;
+  justify-content: space-between;
+}

@@ -1,0 +1,16 @@
+.main-card {
+  margin-top: 28px !important;
+  padding-top: 2rem !important;
+}
+
+.sub-head-center {
+  color: #ffffff66;
+}
+.all-crypto-card {
+  margin-top: 40px !important;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, 290px);
+  gap: 16px;
+  place-content: center;
+  margin-bottom: 20px !important;
+}

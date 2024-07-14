@@ -16,3 +16,11 @@
 .hello {
   color: red;
 }
+@media (max-width: 768px) {
+  .drop-down-content {
+    width: 100%;
+    max-width: none;
+    border-radius: 0;
+    padding: 9px !important;
+  }
+}

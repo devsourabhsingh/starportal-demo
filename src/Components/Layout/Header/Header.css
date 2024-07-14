@@ -1,57 +1,58 @@
 .nav-head {
-    position: sticky;
-    height: 64px;
-    width: 100%;
-    background-color: #060606;
-    border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+  position: sticky;
+  height: 64px;
+  width: 100%;
+  background-color: #060606;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
+.nav-link.active {
+  font-size: 16px;
+  font-weight: 400;
+  color: #ffffffb3 !important;
+}
+.nav-link.active:focus {
+  color: #fff;
+  text-decoration: underline;
+  text-decoration-thickness: 4px;
+  text-underline-offset: 1.3rem;
+}
+.unorder-list-item {
+  margin-left: 40px !important;
+  display: flex;
+  justify-content: center;
+  gap: 3rem;
+}
+.input-search-field {
+  display: flex;
+  margin-left: 2rem !important;
+  gap: 0.5rem;
+}
+.input-search {
+  width: auto;
+  border: 1px solid rgba(255, 255, 255, 0.15);
+  border-radius: 1000px;
+  background-color: #181818 !important;
+  overflow: hidden;
+}
+.search {
+  padding: 10px 0px 10px 16px !important;
+}
+.nav-input {
+  border: none;
+  outline: none !important;
+  padding: 10px 16px !important;
+  background-color: #181818 !important ;
+}
+.btn-broad {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 0.5rem;
+}
+.broadcast {
+  border: 1px solid orange;
+  border-radius: 70px;
+  img {
+    padding: 15px !important;
   }
-  .nav-link.active {
-    font-size: 16px;
-    font-weight: 400;
-    color: #ffffffb3 !important;
-  }
-  .nav-link.active:focus {
-    color: #fff;
-    text-decoration: underline;
-    text-decoration-thickness: 4px;
-    text-underline-offset: 1.3rem;
-  }
-  .unorder-list-item {
-    margin-left: 40px !important;
-    display: flex;
-    justify-content: center;
-    gap: 3rem;
-  }
-  .input-search-field {
-    display: flex;
-    margin-left: 2rem !important;
-    gap: 0.5rem;
-  }
-  .input-search {
-    width: auto;
-    border: 1px solid rgba(255, 255, 255, 0.15);
-    border-radius: 1000px;
-    background-color: #181818 !important;
-    overflow: hidden;
-  }
-  .search {
-    padding: 10px 0px 10px 16px !important;
-  }
-  .nav-input {
-    border: none;
-    padding: 10px 16px !important;
-    background-color: #181818 !important ;
-  }
-  .btn-broad {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 0.5rem;
-  }
-  .broadcast {
-    border: 1px solid orange;
-    border-radius: 70px;
-    img {
-      padding: 15px !important;
-    }
-  }
+}

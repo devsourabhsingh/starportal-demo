@@ -1,0 +1,23 @@
+@media (max-width: 768px) {
+  .section-last {
+    margin-top: 190px !important;
+    margin-bottom: 150px !important;
+  }
+  .intract-certifeid-card-img {
+    display: flex;
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 768px) {
+  .section-last {
+    width: 100%;
+    justify-content: flex-end;
+  }
+  .section-third {
+    margin-top: 215px !important;
+  }
+  .align-secondary-card {
+    margin-right: 0px !important;
+  }
+}

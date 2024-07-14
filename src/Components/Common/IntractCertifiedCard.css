@@ -55,3 +55,8 @@
   position: relative;
   bottom: 30px;
 }
+@media (max-width: 768px) {
+  .text-format {
+    max-width: 160px !important;
+  }
+}
