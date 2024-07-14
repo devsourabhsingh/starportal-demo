@@ -6,11 +6,8 @@ import BroadCast from "../../../Image/broadcast.svg";
 const Header = () => {
   return (
     <>
-      <nav className="navbar navbar-expand-lg  nav-head">
-        <div
-          className="container-fluid ms-auto me-auto"
-          style={{ maxWidth: "1284px" }}
-        >
+      <nav className="navbar navbar-expand-lg   nav-head">
+        <div className="container mx-auto ps-2 pe-2">
           <NavLink className="navbar-brand" to="#">
             <img src={intractImage} alt="" />
           </NavLink>
